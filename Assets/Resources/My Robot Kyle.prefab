@@ -58,8 +58,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725105070}
   m_LocalRotation: {x: -0.5511755, y: 0.44295105, z: 0.5511755, w: 0.44295105}
-  m_LocalPosition: {x: -0.822, y: 3.522, z: -0.06}
-  m_LocalScale: {x: 0.010214595, y: 0.010214595, z: 6.0727353}
+  m_LocalPosition: {x: -1.4599998, y: 6.41, z: -0.06}
+  m_LocalScale: {x: 0.010214595, y: 0.010214595, z: 12}
   m_Children: []
   m_Father: {fileID: 318824917}
   m_RootOrder: 1
@@ -138,8 +138,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383304617}
   m_LocalRotation: {x: -0.5511755, y: 0.44295105, z: 0.5511755, w: 0.44295105}
-  m_LocalPosition: {x: -0.8220003, y: 3.5220006, z: 0.055000067}
-  m_LocalScale: {x: 0.010214595, y: 0.010214595, z: 6.0727353}
+  m_LocalPosition: {x: -1.46, y: 6.41, z: 0.055000067}
+  m_LocalScale: {x: 0.010214595, y: 0.010214595, z: 12}
   m_Children: []
   m_Father: {fileID: 318824917}
   m_RootOrder: 0
@@ -566,7 +566,7 @@ MonoBehaviour:
   distance: 10
   height: 5
   centerOffset: {x: 0, y: 0, z: 0}
-  followOnStart: 1
+  followOnStart: 0
   smoothSpeed: 0.125
 --- !u!114 &3652057345212779046
 MonoBehaviour:
@@ -601,6 +601,7 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
+  - {fileID: 3652057345212779046}
   - {fileID: 7789173883884879376}
   - {fileID: 1037933186729986066}
   sceneViewId: 0
